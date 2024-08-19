@@ -33,6 +33,7 @@ client.on('messageCreate', message => {
 
             // コマンドの出力をメッセージとして送信
             message.reply(`Command output:\n${stdout}`);
+            console.log(`${stdout}`);
         });
     }
 });
