@@ -1,0 +1,5 @@
+.replit
+node_modules
+replit.nix
+poetry.lock
+pyproject.toml

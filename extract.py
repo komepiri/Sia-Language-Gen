@@ -1,10 +1,10 @@
 # 入力ファイル名
-input_filename = "input.txt"
+input_filename = "nyahutalk.txt"
 # 出力ファイル名
-output_filename = "output.txt"
+output_filename = "1.txt"
 
 # 抽出条件の文字列
-target_strings = ["Sia", "sia", "シア"]
+target_strings = ["Sia", "sia", "シア", "色即是空", "慈空亜邪利", "メンヘイ", "テイルズ"]
 
 # 入力ファイルを読み込み、条件に一致する行を抽出して出力ファイルに保存する関数
 def extract_lines(input_filename, output_filename, target_strings):

@@ -1,6 +1,6 @@
 import MeCab
 
-input = open('./data.txt', 'r', encoding='utf-8') # 元となるツイートのデータ
+input = open('./1.txt', 'r', encoding='utf-8') # 元となるツイートのデータ
 output = open('./splitted.txt', 'w', encoding='utf-8') # ツイートを分かち書きしたもの
 
 mecab = MeCab.Tagger("-Owakati")
