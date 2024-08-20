@@ -5,7 +5,7 @@ def remove_after_keyword(line, keyword):
     return line
 
 def main():
-    file_path = "1.txt"  # ファイルパスを指定してください
+    file_path = "tmp.txt"  # ファイルパスを指定してください
     keywords = ["http://", "https://"]  # 削除するキーワードを指定してください
 
     with open(file_path, "r") as file:

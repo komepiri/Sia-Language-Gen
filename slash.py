@@ -16,5 +16,5 @@ def remove_after_slash(file_path):
         file.writelines(new_lines)
 
 # 使用例
-file_path = '1.txt'
+file_path = 'tmp.txt'
 remove_after_slash(file_path)

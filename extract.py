@@ -1,7 +1,7 @@
 # 入力ファイル名
 input_filename = "nyahutalk.txt"
 # 出力ファイル名
-output_filename = "1.txt"
+output_filename = "tmp.txt"
 
 # 抽出条件の文字列
 target_strings = ["Sia", "sia", "シア", "色即是空", "慈空亜邪利", "メンヘイ", "テイルズ"]
